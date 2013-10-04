@@ -1,0 +1,31 @@
+---
+author: admin
+comments: true
+date: 2008-04-16 18:58:33+00:00
+layout: post
+slug: apml
+title: APML
+wordpress_id: 24
+categories:
+- apml
+- microformats
+- MinneWebCon
+- rss
+- usability
+tags:
+- apml
+- microformats
+- MinneWebCon
+- rss
+- usability
+---
+
+On Monday, as I may have mentioned, I attended MinneWebCon 2008. Looking back, I think [Laurie McGinley](http://www.lauriemcginley.com/)'s [presentation on microformats](https://netfiles.umn.edu/users/laurie/www/sent/microformatsSlidesMinneWebCon.zip) was my favorite session of the day. I had no idea I would find it as interesting as I did.
+
+I think the concept that intrigues me the most is [APML, or Attention Profile Markup Language](http://apml.org).
+
+How many of you use an RSS reader? Raise your hands. How many times a week to you go and "Mark All As Read"? RSS was a godsend for those of us who are interested in finding information on the web. The ability to scan hundreds, or even thousands of titles of my favorite websites to decide to read was exciting, for a while. Soon people like me built up so many feeds that the practice of scanning became overwhelming. After your feed posts get a few days old, there are just way too many even to scan through. So almost daily we all go through and mark them all as read. Really we're just getting them out of the way because we want to scan the 200-300 newest headlines. You know what I'm talking about. Enter APML.
+
+In an APML-enabled world, I can decide what topics I'm most interested in and the blog posts that most closely match my predefined interests will rise to the top. I can focus my attention on the posts that are most interesting to me. Sound great? We're not quite there yet. [There are a few websites out there trying to utilize the concept](http://groups.google.com/group/apml-public/web/services-supporting-apml), but as far as usability goes, they've got a long way to go. I want to use APML because I have limited time. If I have to work very hard to use the service, I quickly move on. That sounds petty, but my lack of time/attention is what got me to APML in the first place.
+
+But the technology is not far from being implemented. It serves as a reminder that relatively low-tech solutions can still emerge as important tools on the web.

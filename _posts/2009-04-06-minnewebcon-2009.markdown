@@ -1,0 +1,15 @@
+---
+author: admin
+comments: true
+date: 2009-04-06 13:48:25+00:00
+layout: post
+slug: minnewebcon-2009
+title: MinneWebCon 2009
+wordpress_id: 101
+categories:
+- MinneWebCon
+tags:
+- MinneWebCon
+---
+
+I'm attending [MinneWebCon](http://www.minnewebcon.umn.edu) again this year. It's probably the biggest gathering of nerds at the University of Minnesota. I say, "nerds" with the highest affection of course. I brought my laptop this year, so updates here will be possible if I can find the time. In any case, check back here for updates later in the week.

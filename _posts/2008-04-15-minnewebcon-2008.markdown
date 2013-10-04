@@ -1,0 +1,31 @@
+---
+author: admin
+comments: true
+date: 2008-04-15 14:49:44+00:00
+layout: post
+slug: minnewebcon-2008
+title: MinneWebCon 2008
+wordpress_id: 23
+categories:
+- MinneWebCon
+- Mobile Technology
+- New Media
+- Social Media
+- Twitter
+tags:
+- MinneWebCon
+- mobile
+- New Media
+- Social Media
+- Twitter
+---
+
+I spent a great day at [MinneWebCon](http://www.minnewebcon.umn.edu/) yesterday talking with and meeting other folks in the industry at [The Big U](http://umn.edu) where I work and elsewhere.
+
+It was really a good event for those of us in Minneapolis who are interested in current and emerging web technology. The interesting this to me is how much [Twitter](http://twitter.com) added to the experience for those of us participating.
+
+[If you weren't monitoring things on Twitter, you really missed out on an ongoing conversation](http://twemes.com/minnewebcon). The most obvious observation is that there was a general air of excitement about the event and a lot of people were merely expressing that sentiment in real time. That had one benefit: I was able to get a sense of what was happening in sessions that I was not attending. At least once it influenced my decision to bail out of one session in favor of another.
+
+The second, perhaps more valuable thing about Twitter at the event was a stream of continuous feedback. We were not 30 seconds into the conference before someone was commenting on the @[klayon](http://twitter.com/klayon)'s introduction. Tracking "#minnewebcon" from my cell phone was like having an ear to the wall. The best part about that? The organizers of the event responded directly to me about a couple of comments I made. They were paying attention and that's important.
+
+There will be more formal methods for providing feedback in the next few days, but if you want to troubleshoot the problems in real-time and address them, Twitter is your friend.

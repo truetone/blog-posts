@@ -1,0 +1,46 @@
+---
+author: admin
+comments: true
+date: 2012-02-29 03:23:56+00:00
+layout: post
+slug: one-site
+title: One Site
+wordpress_id: 665
+categories:
+- css
+- web development
+- wordpress
+---
+
+I just did a little adjusting to this Wordpress theme so that the site should render well on all devices now. It looked pretty good before on smartphones before, but I was employing some mobile detection to load some different styles and only render the sidebar for desktop browsers.
+
+The main problem with this was that it messed with my cache. If a mobile browser visited the site, the mobile version was cached and served until the cache expired.
+
+With a little more experience under my belt, it was incredibly simple to handle layout changes with media queries instead. In fact, it's much simpler than the method I used before.<!-- more -->
+
+Admittedly, my layout is fairly simple. There are only a few images to deal with. Almost everything is done w/ CSS. So, all I really wanted to do was get rid of my floats on small screens. First I took the "mobile first" approach and got rid of my floats by default. Then I decided it would render well enough on a tablet at 768 pixels wide, so I set that as my cut-off.
+
+[css]@media only screen and (min-width : 768px) {
+   section#content {
+       float: left;
+       width: 73%;
+   }   
+   aside {
+       clear: none;
+       float: left;
+       width: 20%;
+   }   
+}[/css]
+
+The media query above displays the category navigation (which I have in an `aside` element) to the right. Anything smaller and the categories display underneath the list of blog posts.
+
+This is a very simple example, but it gives you an idea of how easy it can be to make your design responsive.
+
+The other bit I added was this:
+
+[html]<meta name="viewport" content="width=device-width, initial-scale=1.0" />[/html]
+
+This essentially tells high pixel-density devices to render the content like their normal pixel-density counterparts. This meta declaration has been of some interest to me lately. It dates back to 2007 and the first iPhone. You see, Steve Jobs made a decision for you. Steve Jobs decided that the iPhone should deliver a rich web experience like any other computer. So when a page loads in Mobile Safari, it's scaled down and rendered at a functional width of 980 pixels. That means your page looks tiny _unless_ you instruct it to scale up with the meta content above.
+
+The end result is that adding one meta tag and ten lines of CSS turned my design into a responsive one.
+

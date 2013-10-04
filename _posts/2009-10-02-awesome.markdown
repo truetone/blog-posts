@@ -1,0 +1,17 @@
+---
+author: admin
+comments: true
+date: 2009-10-02 11:52:48+00:00
+layout: post
+slug: awesome
+title: Awesome
+wordpress_id: 153
+categories:
+- posterous
+---
+
+[](http://www.youtube.com/watch?v=oIr8-f2OWhs&feature=player_embedded)      
+
+ [Posted via email](http://posterous.com)   from [Truetone](http://truetone.posterous.com/awesome-1096)  
+
+ 

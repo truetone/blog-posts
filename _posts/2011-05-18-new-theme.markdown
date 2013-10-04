@@ -1,0 +1,57 @@
+---
+author: admin
+comments: true
+date: 2011-05-18 02:51:42+00:00
+layout: post
+slug: new-theme
+title: New Theme
+wordpress_id: 580
+categories:
+- css
+- html
+- web development
+---
+
+I did a soft launch of my new Wordpress theme last week. There are a few things I'd like to point out. First is the decision to go to HTML5. HTML5 ([combined with the HTML5 Shiv](http://code.google.com/p/html5shiv/)) actually made writing the styles quite a bit simpler. It's a bit of adjustment after writing XHTML for so long, but when it came time to write the styles the new tags _meant fewer ids and classes_. I found that very handy.
+
+Also I'm using less JavaScript than I was before. Instead the hover effects are accomplished using CSS3 transitions.<!-- more -->
+
+For instance, here is the CSS for the hover effect on the sidebar nav:
+
+[css]-webkit-transition-property: background, margin-left;
+-webkit-transition-duration: 0.5s, 0.5s;
+-webkit-transition-timing-function: linear, ease-in;
+-moz-transition-property: background margin-left;
+-moz-transition-duration: 0.5s, 0.5s;
+-moz-transition-timing-function: linear, ease-in;
+-o-transition-property: background margin-left;
+-o-transition-duration: 0.5s, 0.5s;
+-o-transition-timing-function: linear, ease-in;
+transition-property: background margin-left;
+transition-duration: 0.5s, 0.5s;
+transition-timing-function: linear, ease-in;[/css]
+
+Then I simply redefine the background, right and left margins for the hover state:
+
+[css]background: #0D7B15;
+margin-left: -1em;[/css]
+
+The browser then just takes 0.5 seconds to transition from the default state to the hover state.
+
+I also added some other transitions as well. For instance, you can delay when the transition starts. See if you can spot this one:
+
+[css]-webkit-transition-property: top, left;
+-webkit-transition-duration: 5s, 5s;
+-webkit-transition-timing-function: linear, linear;
+-webkit-transition-delay: 32s, 32s;
+-moz-transition-property: top, left;
+-moz-transition-delay: 32s, 32s;
+-moz-transition-duration: 5s, 5s;
+-moz-transition-timing-function: linear, linear;transition-property: top, left;
+transition-duration: 5s, 5s;
+transition-delay: 32s, 32s;
+transition-timing-function: linear, ease-in-out;[/css]
+
+This effect is attached to an 'animate' class that is triggered by JQuery when the page loads. There's a 32 second delay and then the transition between states begins. It's pretty fun stuff.
+
+Caveat: [Transitions are only supported in Firefox 4+, but they've been supported in WebKit browsers for a long time. Internet Explorer will not support them until version 10](http://caniuse.com/#search=transitions).
